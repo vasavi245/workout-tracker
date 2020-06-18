@@ -20,7 +20,7 @@
   ## Usage
   This application is used to track the daily workouts,
    screen shots of the running application:
-  ![image](https://user-images.githubusercontent.com/58574509/79559347-1e6d6b00-80d8-11ea-9c79-fdb589928868.png)
+ 
   ## Contributing
    UWA Coding Bootcamp 
   
