@@ -21,7 +21,7 @@ require("./routes/api-routes.js")(app);
 mongoose.promise = global.promise;
 // connect to the mongo DB
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://user:password1@ds255308.mlab.com:55308/heroku_ldzt8mx6", 
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", 
 {
      
      useMongoClient: true
