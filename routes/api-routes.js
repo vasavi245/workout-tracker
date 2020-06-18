@@ -36,7 +36,7 @@ module.exports = function(app) {
 
     
     app.get("/api/workouts/range", function(req,res){
-        db.Workout.find({day: {$gte: req.start, $lte: req.end}})
+        db.Workout.find({})
         .then(workouts => {
             res.json(workouts);
         })
